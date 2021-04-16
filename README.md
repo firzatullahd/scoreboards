@@ -2,6 +2,8 @@
 
 Provides live soccer scores and other soccer information from around the world including Asian or African leagues and other online football results.
 
+![docs-img](https://github.com/firzatullahd/scoreboards/blob/master/public/docs-img.png?raw=true)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
