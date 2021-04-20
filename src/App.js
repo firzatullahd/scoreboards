@@ -35,7 +35,11 @@ function App() {
   }, [])
 
   if (isLoading) {
-    return <div className="loading">Loading...</div>
+    return <section className="App">
+      <Navbar />
+      <div className="loading">Loading...</div>
+      <Footer />
+    </section>
   }
   return (
     <>

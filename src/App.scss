@@ -148,6 +148,24 @@ footer {
       }
     }
   }
+  &__analytics {
+    cursor: pointer;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    // box-shadow: 1px -1px 1px 1px black;
+    padding: 0.25rem 2rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    button {
+      // padding: 0.25rem 1rem;
+      border: none;
+      background: transparent;
+    }
+    &-data {
+      &__detail {
+        border-bottom: 1px solid black;
+      }
+    }
+  }
 }
 
 .loading {
@@ -156,4 +174,8 @@ footer {
   padding: 10rem 0;
   font-size: 3rem;
   font-weight: bold;
+}
+
+.hide {
+  display: none;
 }
